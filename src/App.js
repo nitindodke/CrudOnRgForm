@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import RgForm from './Registraionform';
+// import RegistrationForm from './Registraionform';
+// import Functional from './components/functional';
+// import { useState } from 'react';
+// import ClassBased from './components/classBased';
+
+// const userData = [
+//   {
+//     name: "Nitin",
+//     gender: "male",
+//     age: "27",
+//   },
+//   {
+//     name: "Pooja",
+//     gender: "female",
+//     age: "25",
+//   },
+//   {
+//     name: "Shams",
+//     gender: "male",
+//     age: "24",
+//   },
+// ]
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Functional userData={userData} /> */}
+      {/* <Functional user={userData}></Functional> */}
+      {/* <ClassBased user={userData}></ClassBased> */}
+      {/* <RegistrationForm></RegistrationForm> */}
+      <RgForm></RgForm>
     </div>
   );
 }
